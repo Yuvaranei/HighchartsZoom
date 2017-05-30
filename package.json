@@ -1,0 +1,37 @@
+{
+  "name": "highchartszoom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Demograph.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+	"postinstall" : "webpack -p",
+	"start" : "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yuvaranei/HighchartsZoom.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "highcharts-data": "^0.1.2",
+    "highcharts-drilldown": "^0.1.2",
+    "highcharts-more": "^0.1.2",
+    "react": "^15.5.4",
+    "react-bootstrap": "^0.31.0",
+    "react-dom": "^15.5.4",
+    "react-highcharts": "^12.0.0",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "bugs": {
+    "url": "https://github.com/Yuvaranei/HighchartsZoom/issues"
+  },
+  "homepage": "https://github.com/Yuvaranei/HighchartsZoom#readme"
+}
